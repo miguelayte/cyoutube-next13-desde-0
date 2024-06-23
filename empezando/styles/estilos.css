@@ -1,0 +1,31 @@
+nav{
+    display: flex;
+    font-family: var(--mifont);
+}
+nav a{
+    text-decoration: none;
+    padding: 7px 15px;
+    margin: 4px;
+    border: 1px solid black;
+    border-radius: 6px;
+    background-color: #0f0f0f;
+    color: white;
+}
+nav a:hover{
+    background-color: white;
+    color: #0f0f0f;
+}
+.caja{
+    width: 50%;
+    border: 1px solid black;
+    margin: auto;
+}
+img{
+    width: 100%; 
+    height: auto;
+    vertical-align: top;
+}
+.personas{
+    display: flex;
+    flex-wrap:wrap;
+}
